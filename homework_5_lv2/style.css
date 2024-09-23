@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.languages {
+    display: flex;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: #08294D;
+}
+
+#EN {
+    width: 16px;
+    height: 12px;
+    margin: 18px 12px 143px 993px;
+}
+
+#ES {
+    width: 15px;
+    height: 12px;
+    margin: 18px 12px 143px 12px;
+}
+
+#FR {
+    width: 15px;
+    height: 12px;
+    margin: 18px 41px 143px 12px;
+}
+
+.home_page {
+    display: flex;
+    flex-direction: row;
+}
+
+.creativity_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.starts_here_text {
+    display: flex;
+    flex-direction: row;
+}
+
+.creativity_text h1 {
+    width: 391px;
+    height: 90px;
+    margin: 0px 109px 0 62px;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: left;
+    color: #00CB9C;
+}
+
+.creativity_text h2 {
+    width: 220px;
+    height: 90px;
+    margin: 0 0px 22px 62px;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: left;
+    color: #0D5ACC;
+}
+
+.creativity_text h3 {
+    width: 175px;
+    height: 90px;
+    margin: 0 0px 22px 18px;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: left;
+    color: #B6E01B;
+}
+
+.creativity_text p {
+    width: 426px;
+    height: 128px;
+    margin: 22px 74px 0px 62px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #4D597C;
+
+}
+
+.home_page img {
+    display: flex;
+    width: 500px;
+    height: 625px;
+    margin: 0px 42px 69px 74px;
+}
+
+.elementary_school {
+    width: 229px;
+    height: 54px;
+    margin: 107px 271px 20px 62px;
+    border-radius: 5000px;
+    background-color: #5BC7E8;
+    width: 229px;
+}
+
+.elementary_school p {
+    margin: 17px 40px 14px 40px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.middle_school {
+    width: 197px;
+    height: 54px;
+    margin: 0px 303px 127px 62px;
+    border-radius: 5000px;
+    background-color: #00CB9C;
+}
+
+.middle_school p {
+    margin: 17px 40px 14px 40px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.community_page {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 1052px;
+    background-color: #0D5ACC;
+}
+
+.inspired_learners {
+    display: flex;
+    font-display: row;
+}
+
+.community_page h1 {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+    width: 396px;
+    height: 70px;
+    color: #FFFFFF;
+    margin: 317px 501px 0 303px;
+}
+
+.community_page h2 {
+    width: 217px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #B6E01B;
+    margin: 0 680px 0 303px;
+}
+
+.community_page h3 {
+    width: 48px;
+    height: 70px;
+    margin: 0 0 53px 303px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.community_page h4 {
+    width: 201px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #00CB9C;
+    margin: 0 0 53px 0;
+}
+
+.community_page h5 {
+    width: 208px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin: 0 440px 53px 0;
+}
+
+.community_page p {
+    width: 484px;
+    height: 192px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 53px 238px 294px 478px;
+}
+
+.elementary_school_page {
+    display: flex;
+    flex-direction: row;
+}
+
+.elementary_school_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.elementary_img_and_rectangle {
+    position: relative;
+}
+
+.elementary_img_and_rectangle img {
+    width: 500px;
+    height: 625px;
+    margin: 116px 95px 65px 70px;
+}
+
+.rectangle,
+.elementary_img_and_rectangle img {
+    position: absolute
+}
+
+.elementary_img_and_rectangle img {
+    z-index: 1;
+}
+
+.rectangle {
+    width: 500px;
+    height: 625px;
+    margin: 181px 23px 266px 165px;
+    background-color: #5BC7E8;
+}
+
+.kindergarten {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 6px;
+    width: 295px;
+    height: 20px;
+    color: #B0C0D0;
+    margin: 150px 217px 39px 688px;
+}
+
+.elementary_school_text h1 {
+    width: 299px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #5BC7E8;
+    margin: 0 164px 0 737px;
+}
+
+.elementary_school_text h2 {
+    width: 186px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #08294D;
+    margin: 0 277px 59px 737px;
+}
+
+.description {
+    width: 342px;
+    height: 384px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #4D597C;
+    margin: 0px 121px 14px 737px;
+}
+
+.elementary_school_text span {
+    width: 89px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #5BC7E8;
+    margin: 14px 303px 0 808px;
+}
+
+.middle_school_page {
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+}
+
+.middle_school_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle_school_text h1 {
+    width: 223px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 6px;
+    color: #B0C0D0;
+    margin: 0 0 39px 70px;
+}
+
+.middle_school_text h2 {
+    width: 185px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #00CB9C;
+    margin: 39px 0 0 119px;
+}
+
+.middle_school_text h3 {
+    width: 186px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #08294D;
+    margin: 0 0 28px 119px;
+}
+
+.middle_school_text h4 {
+    width: 354px;
+    height: 184px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #08294D;
+    margin: 28px 0 29px 100px;
+}
+
+.middle_school_text h5 {
+    width: 342px;
+    height: 56px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 29px 0 102px 100px;
+    color: #4D597C;
+}
+
+.Bronx_Arts_Middle_School {
+    width: 334px;
+    height: 256px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #4D597C;
+    margin: 0 0 0 119px;
+}
+
+.Arts_attracts {
+    width: 335px;
+    height: 128px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #4D597C;
+    margin: 0 0 16px 119px;
+}
+
+.Performance {
+    width: 343px;
+    height: 128px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #4D597C;
+    margin: 0 0 77px 119px;
+}
+
+.middle_school_text h6 {
+    width: 89px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #00CB9C;
+    margin: 0 0 230px 190px;
+}
+
+.middle_img_and_rectangle {
+    position: relative;
+}
+
+.middle_img_and_rectangle img,
+.rectangle_green {
+    position: absolute;
+}
+
+.middle_img_and_rectangle img {
+    width: 500px;
+    height: 625px;
+    margin: 192px 70px 557px 176px;
+    z-index: 1;
+}
+
+.rectangle_green {
+    width: 500px;
+    height: 625px;
+    background-color: #00CB9C;
+    margin: 257px 165px 492px 81px;
+} 
+
