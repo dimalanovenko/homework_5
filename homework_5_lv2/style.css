@@ -111,10 +111,11 @@ body {
     margin: 107px 271px 20px 62px;
     border-radius: 5000px;
     background-color: #5BC7E8;
+    border: 0;
     width: 229px;
 }
 
-.elementary_school p {
+.elementary_school span {
     margin: 17px 40px 14px 40px;
     font-family: Roboto;
     font-size: 16px;
@@ -128,10 +129,11 @@ body {
     height: 54px;
     margin: 0px 303px 127px 62px;
     border-radius: 5000px;
+    border: 0;
     background-color: #00CB9C;
 }
 
-.middle_school p {
+.middle_school span {
     margin: 17px 40px 14px 40px;
     font-family: Roboto;
     font-size: 16px;
@@ -143,7 +145,7 @@ body {
 .community_page {
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    width: 100%;
     height: 1052px;
     background-color: #0D5ACC;
 }
@@ -444,5 +446,481 @@ body {
     height: 625px;
     background-color: #00CB9C;
     margin: 257px 165px 492px 81px;
-} 
+}
 
+.slide_img {
+    display: flex;
+    position: relative;
+}
+
+.drawing_img {
+    width: 100%;
+    height: 800px;
+    z-index: 0;
+    background-image: url("./img/drawing.png");
+    background-size: cover;
+}
+
+.circle_1,
+.circle_2 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 5000px;
+    background-color: #FFFFFF;
+}
+
+.circle_1 {
+    margin: 788px 10px 0px 583px;
+    z-index: 1;
+}
+
+.circle_2 {
+    margin: 788px 583px 0px 605px;
+    z-index: 2;
+}
+
+.access_to_opportunity {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9FAFE;
+}
+
+.access_to_opportunity_text {
+    flex-direction: column;
+}
+
+.access_to_opportunity_images {
+    position: relative;
+}
+
+.access_to_opportunity_images img,
+.dark_blue_rectangle {
+    position: absolute;
+}
+
+.access_to_opportunity_images img {
+    width: 382px;
+    height: 509px;
+    margin: 253px 173px 254px 70px;
+    z-index: 1;
+}
+
+.dark_blue_rectangle {
+    width: 447px;
+    height: 255px;
+    background-color: #0D5ACC;
+    margin: 508px 78px 253px;
+}
+
+.access_to_opportunity_text h1 {
+    width: 315px;
+    height: 140px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #0D5ACC;
+    margin: 222px 260px 31px 625px;
+}
+
+
+.we_strongly_believe {
+    width: 389px;
+    height: 96px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #4D597C;
+    margin: 0 186px 57px 625px;
+}
+
+.our_inclusion_program {
+    width: 437px;
+    height: 224px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #4D597C;
+    margin: 0 138px 35px 625px;
+}
+
+.access_to_opportunity_text button {
+    width: 194px;
+    height: 49px;
+    border-radius: 5000px;
+    background-color: #0D5ACC;
+    border: 0;
+    margin: 0 395px 162px 611px;
+}
+
+.access_to_opportunity_text span {
+    width: 122px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.attend_bronx_arts_text h1 {
+    width: 716px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #0D5ACC;
+    margin: 164px 242px 0 242px;
+}
+
+.attend_bronx_arts_text h2 {
+    width: 504px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #08294D;
+    margin: 0 348px 36px 348px;
+}
+
+.attend_bronx_arts_buttons_button_1 {
+    width: 223px;
+    height: 49px;
+    border-radius: 5000px;
+    background-color: #0D5ACC;
+    border: 0;
+    margin: 0 47px 142px 370px;
+}
+
+.attend_bronx_arts_buttons_span_1 {
+    width: 151px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.attend_bronx_arts_buttons_button_2 {
+    width: 192px;
+    height: 49px;
+    border-radius: 5000px;
+    background-color: #0D5ACC;
+    border: 0;
+    margin: 0 368px 142px 0;
+}
+
+.attend_bronx_arts_buttons_span_2 {
+    width: 120px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact_page {
+    display: flex;
+    flex-direction: column;
+    background-color: #08294D;
+    width: 100%;
+    height: 535px;
+}
+
+.contact_page_description {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_page_tittles {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_page img {
+    width: 346px;
+    height: 114px;
+    margin: 120px 754px 80px 100px;
+}
+
+.contact_page_tittles h1 {
+    width: 140px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 6px;
+    color: #4D597C;
+    margin: 0 0 32px 70px;
+}
+
+.contact_page_tittles h2 {
+    width: 144px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 6px;
+    color: #4D597C;
+    margin: 0 796px 32px 50px;
+}
+
+.learn_more h2 {
+    width: 68px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 122px 14px 100px;
+}
+
+.learn_more h3 {
+    width: 63px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 127px 14px 100px;
+}
+
+.learn_more h4 {
+    width: 101px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 89px 87px 100px;
+}
+
+.quick_links h2 {
+    width: 96px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0 814px 14px 0;
+    color: #FFFFFF;
+}
+
+.quick_links h3 {
+    width: 125px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 785px 14px 0;
+}
+
+.quick_links h4 {
+    width: 122px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 788px 14px 0;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 53px;
+    background-color: #08294D;
+}
+
+.facebook {
+    width: 13px;
+    height: 23px;
+    margin: 0 34px 30px 861px;
+}
+
+.instagram {
+    width: 21px;
+    height: 21px;
+    margin: 1px 34px 31px 0px;
+}
+
+.youtube {
+    width: 24px;
+    height: 17px;
+    margin: 3px 34px 33px 0;
+}
+
+.twitter {
+    width: 22px;
+    height: 18px;
+    margin: 3px 34px 32px 0;
+}
+
+.linkedin {
+    width: 21px;
+    height: 20px;
+    margin: 2px 102px 31px 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 88px;
+    background-color: #08294D;
+}
+
+.footer_tittle_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_tittle_right_top,
+.footer_tittle_right_bottom {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.footer_tittle_left h1 {
+    width: 252px;
+    height: 22px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #4D597C;
+    margin: 16px 0 50px 100px;
+}
+
+.footer_tittle_right_top h1 {
+    width: 107px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+    margin: 3px 28px 7px 280px;
+}
+
+.footer_tittle_right_top h2,
+.footer_tittle_right_top h3,
+.footer_tittle_right_top h4 {
+    margin: 3px 28px 7px 0;
+}
+
+.footer_tittle_right_top h2 {
+    width: 85px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+}
+
+.footer_tittle_right_top h3 {
+    width: 64px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+}
+
+.footer_tittle_right_top h4 {
+    width: 53px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+}
+
+.footer_tittle_right_top h5 {
+    width: 47px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+    margin: 3px 100px 7px 0;
+}
+
+.footer_tittle_right_bottom h1 {
+    width: 43px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+    margin: 0 28px 54px 432px;
+}
+
+.footer_tittle_right_bottom h2 {
+    width: 32px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+    margin: 0 28px 54px 0;
+}
+
+.footer_tittle_right_bottom h3 {
+    width: 45px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+    margin: 0 28px 54px 0;
+}
+
+.footer_tittle_right_bottom h4 {
+    width: 37px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+    margin: 0 28px 54px 0;
+}
+
+.footer_tittle_right_bottom h5 {
+    width: 47px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #4D597C;
+    margin: 0 100px 54px 0;
+}
